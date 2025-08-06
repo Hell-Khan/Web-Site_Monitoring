@@ -1,0 +1,13 @@
+# === Функция проверки ===
+@bot.message_handler()
+def info(message):
+    if message.text.lower() == 'привет':
+        response = (
+        f"Привет, {full_name}!\n"
+        "Я твой помощник по мониторингу доступности веб-ресурсов "
+        "Электронного Правительства РК. Чем могу помочь?"
+    )
+    elif message.text.lower():
+        bot.reply_to(message, f'ID: {message.from_user.id}')
+
+asd

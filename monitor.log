@@ -1,0 +1,878 @@
+2025-08-03 23:30:09,734 - INFO - Бот запущен
+2025-08-03 23:36:18,768 - INFO - Бот запущен
+2025-08-03 23:36:58,101 - INFO - Бот запущен
+2025-08-03 23:36:58,404 - INFO - HTTP Request: POST https://api.telegram.org/bot8089626698:AAGqLnFtz6_TdJQg7UqnQI1u4slt3iQb0NI/getMe "HTTP/1.1 200 OK"
+2025-08-03 23:36:58,406 - INFO - Application started
+2025-08-03 23:36:58,492 - INFO - HTTP Request: POST https://api.telegram.org/bot8089626698:AAGqLnFtz6_TdJQg7UqnQI1u4slt3iQb0NI/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-03 23:41:36,880 - INFO - Бот запущен
+2025-08-04 00:01:03,934 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<run_bot() done, defined at c:\Users\Asylkhan\Desktop\Работа\WS_Monitoring\site_monitor_bot.py:109> exception=RuntimeError('Cannot close a running event loop')>
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Работа\WS_Monitoring\site_monitor_bot.py", line 121, in run_bot
+    await app.run_polling()
+          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-04 00:21:37,238 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<run_bot() done, defined at c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py:109> exception=RuntimeError('Cannot close a running event loop')>
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 121, in run_bot
+    await app.run_polling()
+          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-04 00:28:11,363 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at C:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py:124> exception=NameError("name 'run_bot' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 125, in main
+    await run_bot()
+          ^^^^^^^
+NameError: name 'run_bot' is not defined
+2025-08-04 00:28:44,806 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py:124> exception=NameError("name 'run_bot' is not defined")>
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 125, in main
+    await run_bot()
+          ^^^^^^^
+NameError: name 'run_bot' is not defined
+2025-08-04 00:30:25,290 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py:102> exception=RuntimeError('Cannot close a running event loop')>
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 114, in main
+    await app.run_polling()
+          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-04 00:33:37,558 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py:102> exception=RuntimeError('Cannot close a running event loop')>
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 114, in main
+    await app.run_polling()
+          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-04 00:35:57,051 - ERROR - Ошибка при запуске бота: Cannot close a running event loop
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 124, in safe_main
+    await main()
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 114, in main
+    await app.run_polling()
+          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-04 00:37:54,771 - ERROR - Ошибка при запуске бота
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 132, in safe_main
+    await main()
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 117, in main
+    await app.run_polling()
+          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-04 00:40:52,992 - ERROR - Ошибка при запуске бота
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 132, in safe_main
+    await main()
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 117, in main
+    await app.run_polling()
+          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-04 00:45:34,219 - ERROR - Ошибка при запуске бота
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 132, in safe_main
+    await main()
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 117, in main
+    await app.run_polling()
+          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-04 21:53:25,300 - ERROR - Ошибка при запуске бота
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 701, in run_until_complete
+    self._check_running()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 637, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 132, in safe_main
+    await main()
+  File "c:\Users\Asylkhan\Desktop\Vork\WS_Monitoring\site_monitor_bot.py", line 117, in main
+    await app.run_polling()
+          ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Asylkhan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1079, in __run
+    loop.close()
+    ~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\asyncio\selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-04 22:05:01,652 - WARNING - https://open.egov.kz недоступен (user 744058083)
+2025-08-04 22:05:02,932 - WARNING - https://gov.kz недоступен (user 744058083)
+2025-08-04 22:05:04,500 - WARNING - https://elicense.kz недоступен (user 744058083)
+2025-08-04 23:19:14,370 - WARNING - https://open.egov.kz недоступен (user 744058083)
+2025-08-04 23:19:15,762 - WARNING - https://gov.kz недоступен (user 744058083)
+2025-08-04 23:19:17,786 - WARNING - https://elicense.kz недоступен (user 744058083)
+2025-08-05 00:44:04,050 - WARNING - https://open.egov.kz недоступен (user 744058083)
+2025-08-05 00:44:05,435 - WARNING - https://gov.kz недоступен (user 744058083)
+2025-08-05 00:44:07,381 - WARNING - https://elicense.kz недоступен (user 744058083)
+2025-08-05 23:21:31,955 - WARNING - https://egov.kz/cms/ru недоступен (user 932223508)
+2025-08-05 23:26:01,929 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:26:02,263 - WARNING - techreg.gov.kz недоступен (user 641292526)
+2025-08-05 23:37:03,824 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:37:04,124 - WARNING - techreg.gov.kz недоступен (user 641292526)
+2025-08-05 23:37:14,755 - INFO - Ручная проверка: https://evaluation.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:15,097 - INFO - Ручная проверка: https://egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:15,207 - INFO - Ручная проверка: https://idp.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:15,413 - INFO - Ручная проверка: https://open.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:15,613 - INFO - Ручная проверка: https://data.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:16,142 - INFO - Ручная проверка: https://legalacts.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:16,486 - INFO - Ручная проверка: https://budget.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:16,586 - INFO - Ручная проверка: https://gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:16,770 - INFO - Ручная проверка: https://dialog.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:16,859 - INFO - Ручная проверка: https://epay.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:16,894 - INFO - Ручная проверка: https://eotinish.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:17,138 - INFO - Ручная проверка: https://root.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:17,222 - INFO - Ручная проверка: https://ucgo.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:17,535 - INFO - Ручная проверка: https://dts.gov.kz/ru/main_ru/ -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:17,929 - INFO - Ручная проверка: https://pki.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:18,057 - INFO - Ручная проверка: https://elicense.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:18,098 - INFO - Ручная проверка: https://enis.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:18,136 - INFO - Ручная проверка: https://did.gov.kz/login?requestedUrl=%2Fprofile -> \u2705 Доступен (user 744058083)
+2025-08-05 23:37:51,264 - INFO - Ручная проверка: https://egov.kz/cms/ru -> \u2705 Доступен (user 932223508)
+2025-08-05 23:37:51,525 - INFO - Ручная проверка: https://techreg.gov.kz/index/ -> \u2705 Доступен (user 932223508)
+2025-08-05 23:37:51,603 - INFO - Ручная проверка: https://techreg.gov.kz/ -> \u2705 Доступен (user 932223508)
+2025-08-05 23:37:57,885 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:37:57,885 - INFO - Ручная проверка: techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-05 23:39:39,340 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:41:02,661 - INFO - Ручная проверка: https://evaluation.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:03,271 - INFO - Ручная проверка: https://egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:03,404 - INFO - Ручная проверка: https://idp.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:03,502 - INFO - Ручная проверка: https://open.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:03,708 - INFO - Ручная проверка: https://data.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:04,265 - INFO - Ручная проверка: https://legalacts.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:04,624 - INFO - Ручная проверка: https://budget.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:04,778 - INFO - Ручная проверка: https://gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:04,988 - INFO - Ручная проверка: https://dialog.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:05,085 - INFO - Ручная проверка: https://epay.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:05,128 - INFO - Ручная проверка: https://eotinish.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:05,392 - INFO - Ручная проверка: https://root.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:05,487 - INFO - Ручная проверка: https://ucgo.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:05,824 - INFO - Ручная проверка: https://dts.gov.kz/ru/main_ru/ -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:06,365 - INFO - Ручная проверка: https://pki.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:06,547 - INFO - Ручная проверка: https://elicense.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:06,626 - INFO - Ручная проверка: https://enis.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:06,700 - INFO - Ручная проверка: https://did.gov.kz/login?requestedUrl=%2Fprofile -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:06,760 - INFO - Ручная проверка: https://techreg.gov.kz/index/; -> \u2705 Доступен (user 744058083)
+2025-08-05 23:41:06,830 - INFO - Ручная проверка: https://techreg.gov.kz/index -> \u2705 Доступен (user 744058083)
+2025-08-05 23:42:14,005 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:44:48,952 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:47:26,910 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:47:55,798 - INFO - Ручная проверка: https://evaluation.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:56,290 - INFO - Ручная проверка: https://egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:56,394 - INFO - Ручная проверка: https://idp.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:56,445 - INFO - Ручная проверка: https://open.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:56,740 - INFO - Ручная проверка: https://data.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:57,321 - INFO - Ручная проверка: https://legalacts.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:57,676 - INFO - Ручная проверка: https://budget.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:57,813 - INFO - Ручная проверка: https://gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:58,029 - INFO - Ручная проверка: https://dialog.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:58,095 - INFO - Ручная проверка: https://epay.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:58,116 - INFO - Ручная проверка: https://eotinish.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:58,383 - INFO - Ручная проверка: https://root.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:58,480 - INFO - Ручная проверка: https://ucgo.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:58,761 - INFO - Ручная проверка: https://dts.gov.kz/ru/main_ru/ -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:59,104 - INFO - Ручная проверка: https://pki.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:59,258 - INFO - Ручная проверка: https://elicense.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:59,300 - INFO - Ручная проверка: https://enis.kz -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:59,346 - INFO - Ручная проверка: https://did.gov.kz/login?requestedUrl=%2Fprofile -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:59,389 - INFO - Ручная проверка: https://techreg.gov.kz/index/; -> \u2705 Доступен (user 744058083)
+2025-08-05 23:47:59,658 - INFO - Ручная проверка: https://techreg.gov.kz/index -> \u2705 Доступен (user 744058083)
+2025-08-05 23:50:01,334 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:52:36,601 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:55:11,019 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-05 23:57:45,657 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:00:20,171 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:02:54,975 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:05:29,128 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:08:04,677 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:10:39,379 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:13:15,497 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:15:49,524 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:18:23,729 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:20:57,859 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:23:32,459 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:26:09,573 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:28:44,011 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:31:24,313 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:33:59,170 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:36:33,669 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:39:07,894 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:41:42,831 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:44:22,190 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:47:00,791 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:49:35,200 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:52:11,732 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:54:46,127 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:57:20,529 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 00:59:56,869 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:02:32,947 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:05:09,464 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:07:45,122 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:10:20,197 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:12:56,175 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:15:32,636 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:18:08,448 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:20:44,835 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:23:22,916 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:25:59,253 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:28:35,862 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:31:12,108 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:33:47,876 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:36:25,262 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:39:02,228 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:41:36,829 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:44:13,978 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:46:50,308 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:49:27,576 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:52:04,502 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:54:23,608 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:54:23,608 - INFO - Ручная проверка: techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-06 01:54:35,287 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:54:35,287 - INFO - Ручная проверка: techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-06 01:54:41,813 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 01:57:26,700 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:00:03,627 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:02:38,340 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:05:16,140 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:07:53,864 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:10:29,405 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:13:04,164 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:15:38,720 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:18:17,477 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:20:04,782 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:20:04,782 - INFO - Ручная проверка: techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-06 02:20:33,269 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:20:33,269 - INFO - Ручная проверка: techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-06 02:20:33,881 - INFO - Ручная проверка: http://techreg.gov.kz -> \u2705 Доступен (user 641292526)
+2025-08-06 02:20:43,203 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:20:43,203 - INFO - Ручная проверка: techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-06 02:20:43,329 - INFO - Ручная проверка: http://techreg.gov.kz -> \u2705 Доступен (user 641292526)
+2025-08-06 02:20:53,952 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:23:30,139 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:26:07,676 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:28:42,730 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:31:13,028 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:31:13,028 - INFO - Ручная проверка: techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-06 02:31:22,572 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:31:22,572 - INFO - Ручная проверка: techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-06 02:31:28,572 - ERROR - Ошибка при проверке http://techreg.gov.kz: 
+2025-08-06 02:31:28,572 - INFO - Ручная проверка: http://techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-06 02:31:33,557 - ERROR - Ошибка при проверке https://techreg.gov.kz/index/;: 
+2025-08-06 02:31:33,907 - WARNING - https://techreg.gov.kz/index/; недоступен (user 744058083)
+2025-08-06 02:31:38,561 - ERROR - Ошибка при проверке http://techreg.gov.kz: 
+2025-08-06 02:31:38,561 - INFO - Ручная проверка: http://techreg.gov.kz -> \u26a0\ufe0f Недоступен (user 641292526)
+2025-08-06 02:31:49,570 - ERROR - Ошибка при проверке https://techreg.gov.kz/index: 
+2025-08-06 02:31:49,700 - WARNING - https://techreg.gov.kz/index недоступен (user 744058083)
+2025-08-06 02:32:05,558 - ERROR - Ошибка при проверке https://techreg.gov.kz/index/: 
+2025-08-06 02:32:05,677 - WARNING - https://techreg.gov.kz/index/ недоступен (user 932223508)
+2025-08-06 02:32:21,565 - ERROR - Ошибка при проверке https://techreg.gov.kz/: 
+2025-08-06 02:32:21,680 - WARNING - https://techreg.gov.kz/ недоступен (user 932223508)
+2025-08-06 02:32:21,681 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:32:37,564 - ERROR - Ошибка при проверке http://techreg.gov.kz: 
+2025-08-06 02:32:37,733 - WARNING - http://techreg.gov.kz недоступен (user 641292526)
+2025-08-06 02:35:28,566 - ERROR - Ошибка при проверке https://techreg.gov.kz/index/;: 
+2025-08-06 02:35:44,563 - ERROR - Ошибка при проверке https://techreg.gov.kz/index: 
+2025-08-06 02:36:00,572 - ERROR - Ошибка при проверке https://techreg.gov.kz/index/: 
+2025-08-06 02:36:16,568 - ERROR - Ошибка при проверке https://techreg.gov.kz/: 
+2025-08-06 02:36:16,568 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:36:32,569 - ERROR - Ошибка при проверке http://techreg.gov.kz: 
+2025-08-06 02:39:23,558 - ERROR - Ошибка при проверке https://techreg.gov.kz/index/;: 
+2025-08-06 02:39:39,564 - ERROR - Ошибка при проверке https://techreg.gov.kz/index: 
+2025-08-06 02:39:55,560 - ERROR - Ошибка при проверке https://techreg.gov.kz/index/: 
+2025-08-06 02:40:11,568 - ERROR - Ошибка при проверке https://techreg.gov.kz/: 
+2025-08-06 02:40:11,568 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:40:27,572 - ERROR - Ошибка при проверке http://techreg.gov.kz: 
+2025-08-06 02:43:18,572 - ERROR - Ошибка при проверке https://techreg.gov.kz/index/;: 
+2025-08-06 02:43:34,564 - ERROR - Ошибка при проверке https://techreg.gov.kz/index: 
+2025-08-06 02:43:50,568 - ERROR - Ошибка при проверке https://techreg.gov.kz/index/: 
+2025-08-06 02:44:06,567 - ERROR - Ошибка при проверке https://techreg.gov.kz/: 
+2025-08-06 02:44:06,568 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:44:18,835 - INFO - http://techreg.gov.kz снова доступен (user 641292526)
+2025-08-06 02:46:54,041 - INFO - https://techreg.gov.kz/index/; снова доступен (user 744058083)
+2025-08-06 02:46:54,269 - INFO - https://techreg.gov.kz/index снова доступен (user 744058083)
+2025-08-06 02:46:55,007 - INFO - https://techreg.gov.kz/index/ снова доступен (user 932223508)
+2025-08-06 02:46:55,248 - INFO - https://techreg.gov.kz/ снова доступен (user 932223508)
+2025-08-06 02:46:55,248 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:49:41,562 - ERROR - Ошибка при проверке https://data.egov.kz: 
+2025-08-06 02:49:41,715 - WARNING - https://data.egov.kz недоступен (user 744058083)
+2025-08-06 02:49:46,830 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:52:19,096 - INFO - https://data.egov.kz снова доступен (user 744058083)
+2025-08-06 02:52:23,643 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:55:00,680 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 02:57:38,280 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:00:15,143 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:02:52,506 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:05:44,864 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:08:23,171 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:11:01,546 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:13:38,576 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:16:14,995 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:18:51,586 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:21:27,958 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:24:05,538 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:26:42,207 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:29:18,408 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:31:55,135 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:34:36,119 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:37:13,183 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:39:49,767 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:42:26,883 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:45:03,814 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:47:41,299 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:50:18,686 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:52:54,244 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:55:31,818 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 03:58:09,351 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:00:46,770 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:03:24,169 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:06:01,657 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:08:37,304 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:11:15,100 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:13:50,643 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:16:26,274 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:19:01,483 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:21:36,410 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:24:13,228 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:26:49,114 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:29:24,017 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:32:00,985 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:34:37,561 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:37:12,364 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:39:49,051 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:42:25,623 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:45:02,165 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:47:39,345 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:50:16,833 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:52:53,399 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:55:30,682 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 04:58:07,462 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:00:43,658 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:03:20,087 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:05:56,968 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:08:32,517 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:11:10,303 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:13:48,645 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:16:24,727 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:19:03,031 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:21:38,544 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:24:15,993 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:26:57,214 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:29:34,553 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:32:11,223 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:34:48,187 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:37:25,385 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:40:08,022 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:42:47,102 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:45:25,142 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:48:03,232 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:50:40,193 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:53:17,825 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:55:54,543 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 05:58:31,562 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:01:07,686 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:03:42,807 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:06:19,675 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:08:54,741 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:11:34,760 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:14:10,471 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:16:45,704 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:19:25,790 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:22:01,617 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:24:40,247 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:27:19,175 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:29:56,867 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:32:32,344 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:35:09,693 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:37:45,752 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:40:21,225 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:43:01,588 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:45:39,044 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:48:15,774 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:50:53,596 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:53:29,446 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:56:04,318 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 06:58:39,088 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:01:14,956 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:03:49,917 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:06:24,277 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:08:59,597 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:11:36,241 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:14:11,211 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:16:47,072 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:19:23,054 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:21:57,895 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:24:37,285 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:27:14,804 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:29:50,240 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:32:29,030 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:35:07,041 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:37:43,390 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:40:24,175 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:43:01,026 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:45:35,356 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:48:10,357 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:50:46,597 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:53:22,844 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:55:58,437 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 07:58:34,002 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 08:01:08,658 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 08:03:45,565 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 08:06:22,652 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 08:08:58,197 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 08:11:35,877 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 08:14:12,842 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 08:16:49,738 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 08:19:25,517 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 08:22:01,669 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:31:21,173 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:31:21,511 - WARNING - techreg.gov.kz недоступен (user 641292526)
+2025-08-06 21:31:33,081 - INFO - Ручная проверка: https://evaluation.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:33,551 - INFO - Ручная проверка: https://egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:33,843 - INFO - Ручная проверка: https://idp.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:33,945 - INFO - Ручная проверка: https://open.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:34,601 - INFO - Ручная проверка: https://data.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:35,192 - INFO - Ручная проверка: https://legalacts.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:35,604 - INFO - Ручная проверка: https://budget.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:35,755 - INFO - Ручная проверка: https://gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:35,980 - INFO - Ручная проверка: https://dialog.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:36,095 - INFO - Ручная проверка: https://epay.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:36,118 - INFO - Ручная проверка: https://eotinish.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:36,352 - INFO - Ручная проверка: https://root.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:36,446 - INFO - Ручная проверка: https://ucgo.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:36,730 - INFO - Ручная проверка: https://dts.gov.kz/ru/main_ru/ -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:37,233 - INFO - Ручная проверка: https://pki.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:37,551 - INFO - Ручная проверка: https://elicense.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:37,607 - INFO - Ручная проверка: https://enis.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:37,659 - INFO - Ручная проверка: https://did.gov.kz/login?requestedUrl=%2Fprofile -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:37,721 - INFO - Ручная проверка: https://techreg.gov.kz/index/; -> \u2705 Доступен (user 744058083)
+2025-08-06 21:31:37,803 - INFO - Ручная проверка: https://techreg.gov.kz/index -> \u2705 Доступен (user 744058083)
+2025-08-06 21:33:56,317 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:36:41,763 - ERROR - Ошибка при проверке https://evaluation.egov.kz: 
+2025-08-06 21:36:41,983 - WARNING - https://evaluation.egov.kz недоступен (user 744058083)
+2025-08-06 21:36:57,740 - ERROR - Ошибка при проверке https://open.egov.kz: 
+2025-08-06 21:36:57,949 - WARNING - https://open.egov.kz недоступен (user 744058083)
+2025-08-06 21:37:02,152 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:39:47,740 - ERROR - Ошибка при проверке https://evaluation.egov.kz: 
+2025-08-06 21:40:03,751 - ERROR - Ошибка при проверке https://open.egov.kz: 
+2025-08-06 21:40:07,437 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:42:01,425 - INFO - Ручная проверка: https://evaluation.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:01,939 - INFO - Ручная проверка: https://egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:02,036 - INFO - Ручная проверка: https://idp.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:02,090 - INFO - Ручная проверка: https://open.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:02,317 - INFO - Ручная проверка: https://data.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:02,859 - INFO - Ручная проверка: https://legalacts.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:03,329 - INFO - Ручная проверка: https://budget.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:03,476 - INFO - Ручная проверка: https://gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:03,737 - INFO - Ручная проверка: https://dialog.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:03,828 - INFO - Ручная проверка: https://epay.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:03,863 - INFO - Ручная проверка: https://eotinish.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:04,152 - INFO - Ручная проверка: https://root.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:04,246 - INFO - Ручная проверка: https://ucgo.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:04,524 - INFO - Ручная проверка: https://dts.gov.kz/ru/main_ru/ -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:04,906 - INFO - Ручная проверка: https://pki.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:05,057 - INFO - Ручная проверка: https://elicense.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:05,122 - INFO - Ручная проверка: https://enis.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:05,189 - INFO - Ручная проверка: https://did.gov.kz/login?requestedUrl=%2Fprofile -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:05,241 - INFO - Ручная проверка: https://techreg.gov.kz/index/; -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:05,300 - INFO - Ручная проверка: https://techreg.gov.kz/index -> \u2705 Доступен (user 744058083)
+2025-08-06 21:42:37,914 - INFO - https://evaluation.egov.kz снова доступен (user 744058083)
+2025-08-06 21:42:38,650 - INFO - https://open.egov.kz снова доступен (user 744058083)
+2025-08-06 21:42:41,896 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:45:17,382 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:47:52,445 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:50:27,107 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:53:02,119 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:55:36,488 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 21:58:10,826 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:00:45,261 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:03:19,411 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:05:53,696 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:08:27,952 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:11:02,903 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:13:37,033 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:16:11,918 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:18:46,983 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:21:21,892 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:23:56,111 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:26:30,523 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:29:04,724 - ERROR - Ошибка при проверке techreg.gov.kz: techreg.gov.kz
+2025-08-06 22:35:10,701 - INFO - Ручная проверка: https://evaluation.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:11,170 - INFO - Ручная проверка: https://egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:11,285 - INFO - Ручная проверка: https://idp.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:11,338 - INFO - Ручная проверка: https://open.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:11,574 - INFO - Ручная проверка: https://data.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:12,095 - INFO - Ручная проверка: https://legalacts.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:12,455 - INFO - Ручная проверка: https://budget.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:12,580 - INFO - Ручная проверка: https://gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:12,779 - INFO - Ручная проверка: https://dialog.egov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:12,867 - INFO - Ручная проверка: https://epay.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:12,894 - INFO - Ручная проверка: https://eotinish.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:13,161 - INFO - Ручная проверка: https://root.gov.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:13,249 - INFO - Ручная проверка: https://ucgo.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:13,536 - INFO - Ручная проверка: https://dts.gov.kz/ru/main_ru/ -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:13,956 - INFO - Ручная проверка: https://pki.gov.kz/ -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:14,142 - INFO - Ручная проверка: https://elicense.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:14,201 - INFO - Ручная проверка: https://enis.kz -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:14,256 - INFO - Ручная проверка: https://did.gov.kz/login?requestedUrl=%2Fprofile -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:14,300 - INFO - Ручная проверка: https://techreg.gov.kz/index/; -> \u2705 Доступен (user 744058083)
+2025-08-06 22:35:14,355 - INFO - Ручная проверка: https://techreg.gov.kz/index -> \u2705 Доступен (user 744058083)
